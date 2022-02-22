@@ -13,7 +13,7 @@
 }
 
 .arm_popup_member_form .popup_content_text {
-    padding: 10px 0px;
+  padding: 10px 0px;
 }
 
 /* UnCommit this After moving "I don't remember password" to arm_form_input_wrapper */
@@ -35,36 +35,40 @@ body .arm_form_102 .arm_forgotpassword_link {
 
 /* Sign up page 768 */
 
-
 .popup_wrapper.arm_popup_member_form_102 .arm_form_heading_container {
-    font-size: 32px;
+  font-size: 32px;
 }
-
 
 /* Page_#3 - Register account to enter */
 .mobile-btns {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 /* Page_#4 #5 #6 - no css to change */
 
-
-
 /* Page_#7 - user Profile */
 
 #header-user-profile-menu ul li a {
-    padding: 40px 0px 14px 0px;
+  padding: 40px 0px 14px 0px;
 }
 
 /* Page_#8- no css to change */
 
 /* Page_#9- font change*/
 /* Please check if this is the right font - I'm not sure. */
-body, body input, body textarea, select {
-    font-family: sans-serif;
+body,
+body input,
+body textarea,
+select {
+  font-family: sans-serif;
 }
 
+/* Page_#10 - add Shadow on Hover*/
 
+.video-index-border-hover {
+  transition: 0.5s;
+}
 
-
-
+.video-index-border-hover:hover {
+  box-shadow: 0 5px 15px rgb(255 255 255 / 30%);
+}
