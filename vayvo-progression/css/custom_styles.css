@@ -1,0 +1,29 @@
+/* Sign up page */
+
+/* Background color */
+.popup_wrapper > .popup_wrapper_inner {
+  background: #08070e;
+}
+
+/*In figma It's 472, But 490 looks more like the design.*/
+.popup_header,
+.popup_content_text {
+  max-width: 472px;
+  /* max-width: 490px; */
+}
+
+/* After moving "I don't remember password" to arm_form_input_wrapper */
+.arm_field_position_center .arm_form_field_container .arm_form_input_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+.arm_form_102 .arm_form_field_container .arm_forgotpassword_link,
+body .arm_form_102 .arm_form_field_container.arm_forgotpassword_link,
+body .arm_form_102 .arm_forgotpassword_link {
+  text-align: end;
+}
+
+.arm_form_input_container {
+  text-align: start;
+}
