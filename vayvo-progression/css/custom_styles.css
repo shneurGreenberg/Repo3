@@ -58,6 +58,12 @@ body .arm_form_102 .arm_forgotpassword_link {
 
 /* Page_#8- no css to change */
 
+/* Page_#9- font change*/
+/* Please check if this is the right font - I'm not sure. */
+body, body input, body textarea, select {
+    font-family: sans-serif;
+}
+
 
 
 
