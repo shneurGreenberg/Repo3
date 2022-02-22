@@ -36,11 +36,8 @@ body .arm_form_102 .arm_forgotpassword_link {
 /* Sign up page 768 */
 
 @media (max-width: 768px) {
-  #comment-review-popup-heading h2,
-  .login-notify-text p,
-  .arm_form_heading_container .arm_form_field_label_wrapper_text,
-  .popup_wrapper.arm_popup_member_form_102 .arm_form_heading_container {
-    font-size: 28px;
+  body #progression-studios-page-title-container .page-title {
+    font-size: 38px;
   }
 }
 
