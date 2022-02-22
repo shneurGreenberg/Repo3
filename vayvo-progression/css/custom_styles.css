@@ -72,3 +72,10 @@ select {
 .video-index-border-hover:hover {
   box-shadow: 0 5px 15px rgb(255 255 255 / 30%);
 }
+
+/* Page_#11 - Shrink  borderline by 1px*/
+
+ul#dashboard-sub-menu li a {
+    
+    border-bottom: 1px solid #525156 !important;
+}
