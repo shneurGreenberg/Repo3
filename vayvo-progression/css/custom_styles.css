@@ -40,7 +40,7 @@ body .arm_form_102 .arm_forgotpassword_link {
 }
 
 /* Page_#3 - Register account to enter */
-.mobile-btns {
+.login-notify-text .mobile-btns {
   padding-bottom: 30px;
 }
 
@@ -76,6 +76,5 @@ select {
 /* Page_#11 - Shrink  borderline by 1px*/
 
 ul#dashboard-sub-menu li a {
-    
-    border-bottom: 1px solid #525156 !important;
+  border-bottom: 1px solid #525156 !important;
 }
