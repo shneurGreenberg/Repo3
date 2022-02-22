@@ -1,19 +1,24 @@
-/* Sign up page */
+/* Sign up page 1920 */
 
 /* Background color */
 .popup_wrapper > .popup_wrapper_inner {
   background: #08070e;
 }
 
-/*In figma It's 472, But 490 looks more like the design.*/
+/*In figma It's 472px, But 490px looks more like the design.*/
 .popup_header,
 .popup_content_text {
   max-width: 472px;
   /* max-width: 490px; */
 }
 
-/* After moving "I don't remember password" to arm_form_input_wrapper */
-.arm_field_position_center .arm_form_field_container .arm_form_input_wrapper {
+.arm_popup_member_form .popup_content_text {
+    padding: 10px 0px;
+}
+
+/* UnCommit this After moving "I don't remember password" to arm_form_input_wrapper */
+
+/* .arm_field_position_center .arm_form_field_container .arm_form_input_wrapper {
   display: flex;
   flex-direction: row;
   align-content: space-between;
@@ -26,4 +31,12 @@ body .arm_form_102 .arm_forgotpassword_link {
 
 .arm_form_input_container {
   text-align: start;
+} */
+
+/* Sign up page 768 */
+
+
+.popup_wrapper.arm_popup_member_form_102 .arm_form_heading_container {
+    font-size: 32px;
 }
+
