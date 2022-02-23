@@ -54,8 +54,14 @@ body .arm_form_102 .arm_forgotpassword_link {
 /* Page_#4  - margin checkbox */
 
 .arm_form_ltr .arm_form_input_wrapper md-checkbox .md-label {
-  margin-top: 25px;
-  margin-left: 30px;
+  margin-top: 19px !important;
+  margin-left: 30px !important;
+}
+
+@media (max-width: 500px) {
+  .arm_form_ltr .arm_form_input_wrapper md-checkbox .md-label {
+    margin-top: 19px !important;
+  }
 }
 
 /* Page_#5- Background button color */
