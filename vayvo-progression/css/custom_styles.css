@@ -51,7 +51,39 @@ body .arm_form_102 .arm_forgotpassword_link {
   padding-bottom: 30px;
 }
 
-/* Page_#4 #5 #6 - no css to change */
+/* Page_#4  #6 - no css to change */
+
+/* Page_#5- Background button color */
+
+.video-search-header-buttons input,
+a#video-post-play-text-btn,
+.progression-sticky-scrolled
+  header#masthead-pro
+  #progression-checkout-basket
+  a.cart-button-header-cart,
+#progression-checkout-basket a.cart-button-header-cart,
+.progression-studios-shop-overlay-buttons a.added_to_cart,
+.wp-block-button a.wp-block-button__link,
+.woocommerce form input.button,
+.woocommerce form input.woocommerce-Button,
+button.wpneo_donate_button,
+.sidebar ul.progression-studios-social-widget li a,
+footer#site-footer .tagcloud a,
+.tagcloud a,
+body .woocommerce nav.woocommerce-MyAccount-navigation li.is-active a,
+.post-password-form input[type="submit"],
+#respond input.submit,
+.wpcf7-form input.wpcf7-submit,
+#boxed-layout-pro .woocommerce .shop_table input.button,
+#boxed-layout-pro .form-submit input#submit,
+#boxed-layout-pro #customer_login input.button,
+#boxed-layout-pro .woocommerce-checkout-payment input.button,
+#boxed-layout-pro button.button,
+#boxed-layout-pro a.button {
+  color: #ffffff;
+  background: #17161c;
+  border: solid 2px;
+}
 
 /* Page_#7 - user Profile */
 
