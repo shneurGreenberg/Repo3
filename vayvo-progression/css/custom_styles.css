@@ -51,7 +51,7 @@ body .arm_form_102 .arm_forgotpassword_link {
   padding-bottom: 30px;
 }
 
-/* Page_#4  #6 - no css to change */
+/* Page_#4  - no css to change */
 
 /* Page_#5- Background button color */
 
@@ -84,6 +84,19 @@ body .woocommerce nav.woocommerce-MyAccount-navigation li.is-active a,
   background: #17161c;
   border: solid 2px;
 }
+
+/* Removing Btm border In review page */
+
+#comment-review-pop-up-container,
+#vayvo-profile-sidebar-name,
+#video-post-sidebar .content-sidebar-section,
+.content-sidebar-section {
+  background: none !important;
+  border-bottom: 0px solid !important;
+  margin-bottom: 0;
+}
+
+/* Page #6 - no css to change */
 
 /* Page_#7 - user Profile */
 
