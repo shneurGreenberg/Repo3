@@ -1,3 +1,18 @@
+/** fonts **/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+/** movie page **/
+
+#vayvo-video-post-content p{
+  font-family: 'Fira Sans', "Fira Sans Condensed", sans-serif;
+}
+
+
+/**Main page**/
+.nav-previous a{
+  border-color: #6c6d70;
+}
+
 /* Sign up page 1920 */
 /* Background color */
 
@@ -104,8 +119,8 @@ body .activated-class #progression-checkout-basket {
     border: none;
   }
 }
-/* Page_#9*/
 
+/* Page_#9*/
 .arm_form_105 .arm_form_input_container input,
 .arm_form_105 .arm_form_input_container textarea,
 .arm_form_105 .arm_form_input_container select,
@@ -124,7 +139,6 @@ select {
 }
 
 /* Page_#11 - add Shadow on Hover*/
-
 .video-index-border-hover {
   transition: 0.5s;
 }
@@ -134,7 +148,6 @@ select {
 }
 
 /* Page_#12 - Shrink  borderline by 1px*/
-
 ul#dashboard-sub-menu li a {
   border-bottom: 1px solid #525156 !important;
 }
