@@ -1,5 +1,4 @@
 /* Sign up page 1920 */
-
 /* Background color */
 
 body .popup_wrapper_inner {
@@ -9,8 +8,11 @@ body .popup_wrapper_inner {
 
 #comment-review-pop-up-padding,
 #close-pop-up-full-review-skrn,
-#close-social-sharing-skrn {
-  background: #08070e;
+#close-social-sharing-skrn,
+.login-required-notice,
+.login-notify-text,
+.arm_form_105 .arm_form_inner_container {
+  background: #08070e !important;
 }
 
 /*In figma It's 472px, But 490px looks more like the design.*/
@@ -74,7 +76,6 @@ body .arm_form_102 .arm_forgotpassword_link {
 }
 
 /* Removing Btm border In review page */
-
 #comment-review-pop-up-container,
 #vayvo-profile-sidebar-name,
 #video-post-sidebar {
@@ -83,10 +84,8 @@ body .arm_form_102 .arm_forgotpassword_link {
   margin-bottom: 0;
 }
 
-/* Page #6 - no css to change */
 
 /* Page_#7 - user Profile */
-
 #header-user-profile-menu ul li a {
   padding: 40px 0px 14px 0px;
 }
@@ -106,10 +105,6 @@ body .activated-class #progression-checkout-basket {
   }
 }
 /* Page_#9*/
-
-.arm_form_105 .arm_form_inner_container {
-  background: #08070e !important;
-}
 
 .arm_form_105 .arm_form_input_container input,
 .arm_form_105 .arm_form_input_container textarea,
@@ -152,16 +147,22 @@ ul#dashboard-sub-menu li a {
 a.vayvo-progression-slider-button:hover,
 .video-post-play-text-btn:hover,
 #video-social-sharing-button:hover,
+#configreset:hover,
 .arm_form_wrapper_container
   .md-button:not(.arm_form_wrapper_container.arm_close_account_btn.md-button):hover {
-  transition-duration: 250ms;
-  transition-timing-function: ease-in-out;
+  transition-duration: 250ms !important;
+  transition-timing-function: ease-in-out !important;
   border-color: #22b2ee !important;
   color: #22b2ee !important;
+  background: transparent !important;
 }
 
 /* side text in movie */
 .content-sidebar-section h4.content-sidebar-sub-header {
   font-size: 15px;
   font-weight: normal;
+}
+
+.float-left {
+  float: left;
 }
