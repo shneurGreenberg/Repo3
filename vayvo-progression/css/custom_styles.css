@@ -9,6 +9,12 @@ body .popup_wrapper_inner {
   background-color: #08070e !important;
 }
 
+#comment-review-pop-up-padding,
+#close-pop-up-full-review-skrn,
+#close-social-sharing-skrn {
+  background: #08070e;
+}
+
 /*In figma It's 472px, But 490px looks more like the design.*/
 .popup_header,
 .popup_content_text {
@@ -70,7 +76,7 @@ body .arm_form_102 .arm_forgotpassword_link {
 
 /* Page_#5- Background button color */
 
-.video-search-header-buttons input,
+/* .video-search-header-buttons input,
 a#video-post-play-text-btn,
 .progression-sticky-scrolled
   header#masthead-pro
@@ -98,14 +104,13 @@ body .woocommerce nav.woocommerce-MyAccount-navigation li.is-active a,
   color: #ffffff;
   background: #17161c;
   border: solid 2px;
-}
+} */
 
 /* Removing Btm border In review page */
 
 #comment-review-pop-up-container,
 #vayvo-profile-sidebar-name,
-#video-post-sidebar .content-sidebar-section,
-.content-sidebar-section {
+#video-post-sidebar {
   background: none !important;
   border-bottom: 0px solid !important;
   margin-bottom: 0;
@@ -144,7 +149,7 @@ select {
 }
 
 .video-index-border-hover:hover {
-  box-shadow: 0 5px 15px rgb(255 255 255 / 30%);
+  box-shadow: 0 5px 15px rgba(30, 27, 241, 0.363);
 }
 
 /* Page_#12 - Shrink  borderline by 1px*/
