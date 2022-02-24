@@ -63,13 +63,14 @@ body .arm_form_102 .arm_forgotpassword_link {
 
 /* Page_#4  - margin checkbox */
 
-#arm_form__checkbox_mvpk0_259__1 .md-label {
+#arm_form_input_container_312 .md-label {
   margin-top: 19px !important;
   margin-left: 30px !important;
+  line-height: 25px;
 }
 
 @media (max-width: 500px) {
-  #arm_form__checkbox_mvpk0_259__1 .md-label {
+  #arm_form_input_container_312 .md-label {
     margin-top: 45px !important;
   }
 }
@@ -125,9 +126,6 @@ body .woocommerce nav.woocommerce-MyAccount-navigation li.is-active a,
 }
 
 /* 8 */
-#header-user-profile-menu ul {
-  box-shadow: none;
-}
 
 @media (max-width: 960px) {
   #header-user-profile.active #header-user-profile-menu {
@@ -136,11 +134,8 @@ body .woocommerce nav.woocommerce-MyAccount-navigation li.is-active a,
 }
 /* Page_#9*/
 
-.arm_form_105 .arm_form_input_container input,
-.arm_form_105 .arm_form_input_container textarea,
-.arm_form_105 .arm_form_input_container select,
-.arm_form_105 .arm_form_input_container md-select md-select-value {
-  border-color: #c4c4c5;
+.arm_form_inner_container {
+  background: #08070e !important;
 }
 
 /* Page_#10- font change*/
@@ -159,7 +154,7 @@ select {
 }
 
 .video-index-border-hover:hover {
-  box-shadow: 0 5px 15px rgba(30, 27, 241, 0.363);
+  box-shadow: 0px 0px 40px rgba(0, 179, 255, 0.25);
 }
 
 /* Page_#12 - Shrink  borderline by 1px*/
