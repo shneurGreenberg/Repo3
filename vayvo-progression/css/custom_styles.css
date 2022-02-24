@@ -126,9 +126,14 @@ body .woocommerce nav.woocommerce-MyAccount-navigation li.is-active a,
 
 /* 8 */
 #header-user-profile-menu ul {
-    box-shadow: none;
-  
+  box-shadow: none;
+}
 
+@media (max-width: 960px) {
+  #header-user-profile.active #header-user-profile-menu {
+    border: none;
+  }
+}
 /* Page_#9*/
 
 .arm_form_105 .arm_form_input_container input,
