@@ -5,6 +5,10 @@
   background: #08070e;
 }
 
+body .popup_wrapper_inner {
+  background-color: #08070e !important;
+}
+
 /*In figma It's 472px, But 490px looks more like the design.*/
 .popup_header,
 .popup_content_text {
@@ -115,18 +119,25 @@ body .woocommerce nav.woocommerce-MyAccount-navigation li.is-active a,
   padding: 40px 0px 14px 0px;
 }
 
-/* Page_#8- no css to change */
+/* Page_#9*/
 
-/* Page_#9- font change*/
+.arm_form_105 .arm_form_input_container input,
+.arm_form_105 .arm_form_input_container textarea,
+.arm_form_105 .arm_form_input_container select,
+.arm_form_105 .arm_form_input_container md-select md-select-value {
+  border-color: #c4c4c5;
+}
+
+/* Page_#10- font change*/
 /* Please check if this is the right font - I'm not sure. */
 body,
 body input,
 body textarea,
 select {
-  font-family: sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
 }
 
-/* Page_#10 - add Shadow on Hover*/
+/* Page_#11 - add Shadow on Hover*/
 
 .video-index-border-hover {
   transition: 0.5s;
@@ -136,7 +147,7 @@ select {
   box-shadow: 0 5px 15px rgb(255 255 255 / 30%);
 }
 
-/* Page_#11 - Shrink  borderline by 1px*/
+/* Page_#12 - Shrink  borderline by 1px*/
 
 ul#dashboard-sub-menu li a {
   border-bottom: 1px solid #525156 !important;
