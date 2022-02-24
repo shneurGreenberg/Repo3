@@ -1,12 +1,10 @@
 /* Sign up page 1920 */
 
 /* Background color */
-.popup_wrapper > .popup_wrapper_inner {
-  background: #08070e;
-}
 
 body .popup_wrapper_inner {
-  background-color: #08070e !important;
+  background: #08070e !important;
+  border: none;
 }
 
 #comment-review-pop-up-padding,
@@ -75,38 +73,6 @@ body .arm_form_102 .arm_forgotpassword_link {
   }
 }
 
-/* Page_#5- Background button color */
-
-/* .video-search-header-buttons input,
-a#video-post-play-text-btn,
-.progression-sticky-scrolled
-  header#masthead-pro
-  #progression-checkout-basket
-  a.cart-button-header-cart,
-#progression-checkout-basket a.cart-button-header-cart,
-.progression-studios-shop-overlay-buttons a.added_to_cart,
-.wp-block-button a.wp-block-button__link,
-.woocommerce form input.button,
-.woocommerce form input.woocommerce-Button,
-button.wpneo_donate_button,
-.sidebar ul.progression-studios-social-widget li a,
-footer#site-footer .tagcloud a,
-.tagcloud a,
-body .woocommerce nav.woocommerce-MyAccount-navigation li.is-active a,
-.post-password-form input[type="submit"],
-#respond input.submit,
-.wpcf7-form input.wpcf7-submit,
-#boxed-layout-pro .woocommerce .shop_table input.button,
-#boxed-layout-pro .form-submit input#submit,
-#boxed-layout-pro #customer_login input.button,
-#boxed-layout-pro .woocommerce-checkout-payment input.button,
-#boxed-layout-pro button.button,
-#boxed-layout-pro a.button {
-  color: #ffffff;
-  background: #17161c;
-  border: solid 2px;
-} */
-
 /* Removing Btm border In review page */
 
 #comment-review-pop-up-container,
@@ -123,6 +89,13 @@ body .woocommerce nav.woocommerce-MyAccount-navigation li.is-active a,
 
 #header-user-profile-menu ul li a {
   padding: 40px 0px 14px 0px;
+}
+
+#header-user-profile #header-user-profile-menu,
+#header-user-profile.active #header-user-profile-menu,
+body .activated-class #progression-checkout-basket {
+  top: 100%;
+  margin-top: 0px;
 }
 
 /* 8 */
