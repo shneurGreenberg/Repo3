@@ -143,3 +143,25 @@ select {
 ul#dashboard-sub-menu li a {
   border-bottom: 1px solid #525156 !important;
 }
+
+/* bts */
+.wishlist-button-pro:hover,
+.md-button:hover,
+.arm_form_field_submit_button:hover,
+.vayvo-progression-slider-button:hover,
+a.vayvo-progression-slider-button:hover,
+.video-post-play-text-btn:hover,
+#video-social-sharing-button:hover,
+.arm_form_wrapper_container
+  .md-button:not(.arm_form_wrapper_container.arm_close_account_btn.md-button):hover {
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out;
+  border-color: #22b2ee !important;
+  color: #22b2ee !important;
+}
+
+/* side text in movie */
+.content-sidebar-section h4.content-sidebar-sub-header {
+  font-size: 15px;
+  font-weight: normal;
+}
