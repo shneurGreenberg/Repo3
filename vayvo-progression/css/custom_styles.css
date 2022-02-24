@@ -1,15 +1,14 @@
 /** fonts **/
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
 
 /** movie page **/
 
-#vayvo-video-post-content p{
-  font-family: 'Fira Sans', "Fira Sans Condensed", sans-serif;
+#vayvo-video-post-content p {
+  font-family: "Fira Sans", "Fira Sans Condensed", sans-serif;
 }
 
-
 /**Main page**/
-.nav-previous a{
+.nav-previous a {
   border-color: #6c6d70;
 }
 
@@ -99,7 +98,6 @@ body .arm_form_102 .arm_forgotpassword_link {
   margin-bottom: 0;
 }
 
-
 /* Page_#7 - user Profile */
 #header-user-profile-menu ul li a {
   padding: 40px 0px 14px 0px;
@@ -127,6 +125,7 @@ body .activated-class #progression-checkout-basket {
 .arm_form_105 .arm_form_input_container md-select md-select-value {
   border-color: #c4c4c5 !important;
   border: 1px solid #c4c4c5 !important;
+  opacity: 0.2 !important;
 }
 
 /* Page_#10- font change*/
@@ -178,4 +177,15 @@ a.vayvo-progression-slider-button:hover,
 
 .float-left {
   float: left;
+}
+
+.arm_form_wrapper_container
+  .md-button:not(.arm_form_wrapper_container.arm_close_account_btn.md-button) {
+  border: 2px solid #ffffff !important;
+  color: #ffffff !important;
+}
+
+.arm_form_105 .arm_form_field_submit_button.md-button,
+.arm_form_105 .arm_form_field_submit_button {
+  width: 150px !important;
 }
