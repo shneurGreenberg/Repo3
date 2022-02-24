@@ -134,8 +134,16 @@ body .woocommerce nav.woocommerce-MyAccount-navigation li.is-active a,
 }
 /* Page_#9*/
 
-.arm_form_inner_container {
+.arm_form_105 .arm_form_inner_container {
   background: #08070e !important;
+}
+
+.arm_form_105 .arm_form_input_container input,
+.arm_form_105 .arm_form_input_container textarea,
+.arm_form_105 .arm_form_input_container select,
+.arm_form_105 .arm_form_input_container md-select md-select-value {
+  border-color: #c4c4c5 !important;
+  border: 1px solid #c4c4c5 !important;
 }
 
 /* Page_#10- font change*/
