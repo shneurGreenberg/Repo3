@@ -25,7 +25,10 @@ body .popup_wrapper_inner {
 #close-social-sharing-skrn,
 .login-required-notice,
 .login-notify-text,
-.arm_form_105 .arm_form_inner_container {
+.arm_form_105 .arm_form_inner_container,
+.select2-dropdown,
+.select2-results__option,
+#select2-vplatform-zk-result-xyrw-ivi {
   background: #08070e !important;
 }
 
@@ -187,5 +190,63 @@ a.vayvo-progression-slider-button:hover,
 
 .arm_form_105 .arm_form_field_submit_button.md-button,
 .arm_form_105 .arm_form_field_submit_button {
-  width: 150px !important;
+  width: 140px !important;
+  font-family: Fira Sans !important;
+  font-weight: bolder !important;
+  font-size: 15px !important;
+  padding: 0px 5px 5px !important;
+}
+
+.triangle1,
+.triangle2 {
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 9.21px solid rgb(0, 179, 255);
+  transition: all 200ms ease-out;
+  transform: rotate(0deg);
+  margin-top: -32px;
+  margin-left: 133px;
+}
+
+.triangle1 {
+  z-index: 2;
+  position: absolute;
+}
+
+.triangle2 {
+  z-index: 1;
+  position: absolute;
+}
+
+.logo-inside-nav-pro {
+  z-index: -2;
+}
+
+#logo-pro:hover > .triangle2 {
+  transform: translate(0px, 3px) rotate(90deg);
+}
+
+#logo-pro:hover > .triangle1 {
+  transform: rotate(-90deg);
+}
+
+.blockBackground {
+  background: #08070e !important;
+  background-color: #08070e !important;
+  width: 14px;
+  height: 10px;
+  position: absolute;
+  z-index: 1;
+  margin-top: -31px;
+  margin-left: 130px;
+}
+
+@media (max-width: 500px) {
+  .blockBackground,
+  .triangle1,
+  .triangle2 {
+    display: none;
+  }
 }
